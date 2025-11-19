@@ -1,0 +1,37 @@
+## Visual Studio
+.vs/
+*.VC.db
+*.sdf
+*.opensdf
+*.VC.opendb
+
+## JetBrains Rider IDE Files
+.idea/
+*.sln.DotSettings.user
+
+## Unreal Engine generated files
+### Intermediate, Build, and Derived Data Cache
+/Intermediate/
+/Build/
+/DerivedDataCache/
+
+### Binaries
+/Binaries/
+
+### Saved (Logs, Config, etc.)
+/Saved/
+
+### Marketplace Content
+/Plugins/*/Intermediate/
+/Plugins/*/Binaries/
+/Plugins/*/Saved/
+/Plugins/*/Build/
+
+## External Dependencies/Libraries (if downloaded outside the engine)
+/ThirdParty/
+
+## Other files you might want to ignore
+*.user
+*.asset
+
+Thumbs.db
